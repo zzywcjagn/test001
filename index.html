@@ -69,7 +69,7 @@
 
                 const login = () => {
                     // 发送口令到后端进行验证
-                    axios.post('http://168.138.206.89:5000/login', { tel: tel._value, passwd: passwd._value })
+                    axios.post('https://logindx.zzzytd.top/test01/login', { tel: tel._value, passwd: passwd._value })
                         .then(response => {
                             console.log(response);
                             if (response.data == '200') {
